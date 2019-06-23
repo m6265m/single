@@ -33,7 +33,7 @@ var x = 0;
 
 const minusbutton = document.getElementById("minus");
 const plusbutton = document.getElementById("plus");
-let v = document.getElementById("form-input1").innerHTML("value");
+var v = document.getElementById("form-input1").innerHTML;
 
 plusbutton.addEventListener("click", () => {
     v++;
