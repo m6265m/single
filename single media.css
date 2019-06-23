@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+    #main1 {
+        grid-template-columns: 1fr;
+        /*place-self: center;*/
+        padding: 1em 9em 0 9em;
+
+    }
+
+}

@@ -194,9 +194,10 @@ li a{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     /*width: 100%;*/
-    background-color: whitesmoke;
+    /*background-color: whitesmoke;*/
     grid-gap: 9em;
     border-top: 2px solid gainsboro;
+    background-image: linear-gradient(to top,whitesmoke,white);
 
 }
 
@@ -228,7 +229,7 @@ li a{
 }
 
 #paragraph #price{
-    color: #999;
+    color: #EDC9AF;
     font-size: 31px;
 }
 
@@ -240,14 +241,14 @@ li a{
 #size-dropdown select{
     width: 50%;
     height: 5vh;
-    border: transparent;
+    border: 1px solid gray;
     border-radius: 10px;
 }
 
 #color-dropdown select{
     width: 50%;
     height: 5vh;
-    border: transparent;
+    border: 1px solid gray;
     border-radius: 10px;
 }
 
