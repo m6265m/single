@@ -33,15 +33,20 @@ var x = 0;
 
 const minusbutton = document.getElementById("minus");
 const plusbutton = document.getElementById("plus");
-var v = document.getElementById("form-input1").innerHTML;
+let v = document.getElementById("form-input1").innerHTML;
 
 plusbutton.addEventListener("click", () => {
     v++;
     document.getElementById("form-input1").innerHTML= v;
 });
 
+minusbutton.addEventListener("click", () => {
+    if(v>1) {
+        v--;
 
-
+        document.getElementById("form-input1").innerHTML = v;
+    }
+});
 
 
 

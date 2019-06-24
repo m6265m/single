@@ -202,8 +202,10 @@ li a{
 }
 
 #product-image {
-    width: 29vw;
+    width: 34vw;
     height: 80vh;
+    margin-top: 8em;
+    padding-left: 3em;
 }
 
 #product-image img {
@@ -224,10 +226,14 @@ li a{
 
 #paragraph h1{
     font-size: 86px;
-    font-family: 'Lobster', cursive;
+    /*font-family: 'Lobster', cursive;*/
     /*font-weight: bolder;*/
-    background-color: #ffe4c4c4;
+    /*font-family: 'Courgette', cursive;*/
+    font-family: 'Playfair Display', serif;
+    /*background-color: #ffe4c4c4;*/
     padding-left: 20px;
+    border-bottom: 1px solid #EDC9AF;
+
     /*place-self: center;*/
 
 }
@@ -238,7 +244,7 @@ li a{
 }
 
 #paragraph #para{
-    font-size: 22px;
+    font-size: 19px;
     color: black;
 }
 
@@ -287,6 +293,8 @@ li a{
 
 #form-input{
     justify-self: center;
+    display: flex;
+    align-items: center;
 }
 
 .bgcolor{
@@ -311,11 +319,66 @@ li a{
 
 #form-input1{
     width: 100%;
+    height: auto;
+    text-align: center;
+    -webkit-appearance: none;
+    border: 1px solid #eee;
+
+}
+
+#add {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*grid-template-rows: auto;*/
+    /*background-color: whitesmoke;*/
+    /*padding-top: 2em;*/
+    max-width: 24vh;
+    /*align-items: center;*/
+    height: 7vh;
+    /*border: 2px solid #EDC9AF;*/
+    margin-top: 2em;
+    grid-gap: 5em;
+}
+
+#cart{
+    border: 2px solid #EDC9AF;
+    font-family: 'Roboto Slab', serif;
+    width: 32vh;
     height: 100%;
     text-align: center;
-    /*-webkit-appearance: none;*/
-    /*border: 1px solid #eee;*/
-    align-items: center;
-    place-self: center;
-    padding: 1em;
+    padding-top: 9px;
+    font-size: 20px;
+}
+
+#cart:hover{
+    background-color: #EDC9AF;
+    transition: 0.5s;
+}
+
+#cart:hover p{
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+#heart{
+    border: 2px solid #EDC9AF;
+    width: 9vh;
+    text-align: center;
+    height: 100%;
+    padding-top: 12px;
+}
+
+.fa-heart{
+    font-size: 27px;
+}
+
+#heart:hover .fa-heart{
+    color: white;
+}
+
+#heart:hover{
+    background-color: #EDC9AF;
+    transition: 0.5s;
 }
